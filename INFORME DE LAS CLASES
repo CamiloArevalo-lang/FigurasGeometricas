@@ -1,0 +1,40 @@
+INFORME DE LAS CLASES FIGURAS GEOMETRICAS 
+A continuación, se presenta el informe de las clases implementadas en el programa de las “Figuras Geométricas”, este programa cuenta con la implementación 
+de una clase principal denominada “app” y otras cuatro clases de diferentes figuras geométricas, en las cuales podemos encontrar:
+-Circulo
+-Cuadrado
+-Rectángulo
+- Triangulo Rectángulo
+CLASE APP "Importante" 
+Nuestra clase app es nuestra rama principal de nuestro programa, se encarga de generar un objeto para cada una de nuestras figuras geométricas, 
+cabe aclarar que cada figurar geométrica se encuentra ubicada en un package diferente al de app. 
+
+FIGURA: CIRCULO/package Model
+La clase circulo cuenta con diferentes métodos los cuales son:
+*public double calcularArea (): Retorna el valor del área del círculo.
+*public double calcularPerimetro (): Retorna el valor del perímetro del círculo.
+*public Circulo (double radio): Constructor el cual recibe el valor el radio del círculo.
+Todo esto es para encontrar el área y el perímetro de esta figura geométrica. 
+
+FIGURA: CUADRADO/package Model
+La clase cuadrado cuenta con diferentes métodos los cuales son:
+*public double calcularArea (): Retorna el valor del área del cuadrado.
+*public double calcularPerimetro (): Retorna el valor del perímetro del cuadrado.
+*public Cuadrado (double lado): Constructor el cual recibe el valor del lado del cuadrado.
+
+FIGURA: RECTANGULO/package Model
+La clase rectángulo cuenta con diferentes métodos los cuales son:
+*public double calcularArea (): Retorna el valor del área del rectángulo.
+*public double calcularPerimetro (): Retorna el valor del perímetro del rectángulo.
+*public Rectángulo (double base, double altura): Constructor el cual recibe el valor de la base y la altura del rectángulo.
+
+FIGURA: TRIANGULO RECTANGULO/package Model
+Las clases del triángulo rectángulo cuenta con diferentes métodos los cuales son: 
+*public double calcularArea (): Retorna el valor del área del triángulo rectángulo.
+*public double calcularPerimetro (): Retorna el valor del perímetro del triángulo rectángulo.
+*public Triangulo Rectángulo (double base, double altura): Constructor el cual recibe el valor de la base y la altura del triángulo rectángulo.
+*public String determinarTipoTriangulo (): Determina el tipo de triangulo el cual se está manejando.
+
+CLASE APP
+Nuestra clase app es nuestra rama principal como mencione anteriormente, por lo tanto en este punto es donde nosotros vamos a trabajar todos los objetos 
+de las figuras que estamos manejando, es decir es donde se va a ejecutar todo nuestro proyecto.  
